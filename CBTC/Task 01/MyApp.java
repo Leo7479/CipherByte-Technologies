@@ -87,6 +87,7 @@ public class MyApp extends JFrame implements ActionListener, KeyListener{
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
         setTitle("Guess The Number");
+        setIconImage(photo.getImage());
     }
     public int nextRandom(){
         float f = rand.nextFloat();
