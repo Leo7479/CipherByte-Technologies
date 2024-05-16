@@ -47,6 +47,7 @@ public class Reception extends JFrame implements ActionListener, WindowListener,
         addKeyListener(this);
         addWindowListener(this);
         setTitle("Guess The Number");
+        setIconImage(image.getImage());
     }
     @Override
     public void actionPerformed(ActionEvent ae){
