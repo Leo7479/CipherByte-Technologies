@@ -71,7 +71,6 @@ public class Reception extends JFrame implements ActionListener, WindowListener,
     public void windowDeiconified(WindowEvent e) {    }
     @Override
     public void windowActivated(WindowEvent e) {
-        System.out.println("Hello");
         if(score != -1){
             l.setIcon(new ImageIcon("./images/congrats.jpeg"));
             text.setText("Your Score: "+score);
