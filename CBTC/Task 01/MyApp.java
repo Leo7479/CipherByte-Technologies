@@ -135,7 +135,6 @@ public class MyApp extends JFrame implements ActionListener, KeyListener{
                     str="Greater";
             }
             str+=". Attempts Left: "+(maxAttempts - numberOfAttempts);
-            System.out.println(actualNumber);
             if(numberOfAttempts == maxAttempts){
                 result.setText("No more Attempts left...");
                 setVisible(false);
