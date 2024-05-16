@@ -10,7 +10,7 @@ public class MyApp extends JFrame implements ActionListener, KeyListener{
     JButton next,check;
     final Random rand = new Random();
     int actualNumber, guessNumber, numberOfAttempts=0, maxAttempts=5, score=0,round = 1;
-    int upperLimit = 10;
+    int upperLimit = 100;
     Reception reception=null;
     MyApp(Reception r){
         reception = r;
