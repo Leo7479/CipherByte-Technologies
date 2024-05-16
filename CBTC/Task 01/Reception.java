@@ -46,6 +46,7 @@ public class Reception extends JFrame implements ActionListener, WindowListener,
         setVisible(true);
         addKeyListener(this);
         addWindowListener(this);
+        setTitle("Guess The Number");
     }
     @Override
     public void actionPerformed(ActionEvent ae){
