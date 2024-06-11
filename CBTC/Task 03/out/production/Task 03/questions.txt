@@ -1,0 +1,10 @@
+1. What is correct syntax for main method of a java class?,public static int main(String[] args),public int main(String[] args),public static void main(String[] args),None of the above,3
+2. Which of the following is not a keyword in java?,static,Boolean,void,private,2
+3. What is a class in java?,A class is a blue print from which individual objects are created. A class can contain fields and methods to describe the behavior of an object,class is a special data type,class is used to allocate memory to a data type,none of the above,1
+4. What of the following is the default value of a local variable?,null,0,Depends upon the type of variable,Not assigned,4
+5. What of the following is the default value of a global variable?,null,0,Depends upon the type of variable,Not assigned,3
+6. What is the size of byte variable?,8 bit,16 bit,32 bit,64 bit,1
+7. What is the size of boolean variable?,8 bit,16 bit,32 bit,not precisely defined,2
+8. Is an empty .java file a valid source file?,True,False,1
+9. Can we have two public classes in one java file?,True,False,2
+10. Can we compare int variable with a boolean variable?,True,False,2
